@@ -1,8 +1,8 @@
 body {
     background-color: light rgb(28, 88, 11);
-    color: rgb(20, 126, 197);
+    color: rgb(117, 96, 220);
     padding: 10px;
-    font-family: arial;
+    font-family: 'Times New Roman', Times, serif;
 }
 #all-contents {
   max-width: 800px;
@@ -11,16 +11,19 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(0, 0, 0);
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border-radius: 20px;
+    background-image: url("https://s.yimg.com/ny/api/res/1.2/fY2JR0_8Pkbi3IhzlJtpIA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en-US/homerun/pigeons_planes_149/c4367aba83837f48c4a53e82462c95a5");
+    padding-bottom: 100px;
 }
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -38,8 +41,9 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(0, 0, 0);
     display: flex;
+    border-radius: 30px;
 }
 .sidebar {
     margin-right: 25px;
@@ -47,6 +51,7 @@ main {
 }
 .sidebar-img {
     width: 200px;
+    border-radius: 100px;
 }
 .content {
     flex: 1;
@@ -61,3 +66,21 @@ main {
 h2, h3 {
     margin: 0px;
 }
+
+#glowHeader{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+/*Glow animation here*/
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
+    }
+  }
