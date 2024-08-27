@@ -1,83 +1,38 @@
-body {
-    background-color: light rgb(153, 163, 190);
-    color: rgb(104, 117, 218);
-    padding: 10px;
-    font-family: fantasy
-    
-}
-#all-contents {
-  max-width: 700px;
-    margin: auto;
-}
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Amyri's Underground</title>
+        <link rel="stylesheet"
+           href="style.css" 
+    </head>
 
-/* navigation menu */
-nav {
-    background: rgb(0, 0, 0);
-    margin: 0 auto;
-    margin-bottom: 10px;
-    display: flex;
-    padding: 40px;
-    border-radius: 25px;
-    background-image: url("https://s.yimg.com/ny/api/res/1.2/fY2JR0_8Pkbi3IhzlJtpIA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en-US/homerun/pigeons_planes_149/c4367aba83837f48c4a53e82462c95a5");
-    height:150px;
-}
-h1 {
-    display: flex;
-    align-items: center;
-    color: rgb(252, 250, 254);
-    flex: 1;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    animation:1s glow ease-in-out infinite alternate
-}
-
-@-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px rgb(244, 240, 244), 0 0 20px #fff, 0 0 30px #f4eff2, 0 0 40px #f1edef, 0 0 50px #f0eaed, 0 0 60px #f7f0f3, 0 0 70px #f0e9ec;
-    }
-    to {
-      text-shadow: 0 0 20px rgb(235, 235, 239), 0 0 30px #ede5e9, 0 0 40px #f6f2f4, 0 0 50px #f1edef, 0 0 60px #f8f5f6, 0 0 70px #f7f3f5, 0 0 80px #f2eef0;
-    }
-  }
-
-#nav-ul {
-    list-style-image: none;
-}
-.nav-li {
-    display: inline-block;
-    padding: 0 10px;
-}
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* main container area beneath menu */
-main {
-    background: rgb(9, 9, 9);
-    display: flex;
-    border-radius: 50px;
-}
-.sidebar {
-    margin-right: 20px;
-    padding: 10px;
-}
-.sidebar-img {
-    width: 220px;
-    border-radius: 50px;
-}
-.content {
-    flex: 1;
-    padding: 15px;
-}
-
-/* portfolio styles */
-#interests {
-    border: 4px rgb(253, 252, 255) ridge;
-    padding: 6px;
-    border-radius: 15px;
-    border-style: double;
-}
-h2, h3 {
-    margin: 0px;
-}
+    <body>
+      <div id="all-contents">
+        <nav>
+            <h1>Amyri's Underground</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                    <a class="nav-a" href="index.html">Home</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-a" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+            <nav>
+                <!-- Nav stuff here...-->
+             </nav>
+            <main>
+                <div class="content">
+                    <h1>Portfolio</h1>
+                    <ul id="portfolio">
+                        <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure game for Halleb0t</a></li>
+                        <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game development on the web </a></li>
+                        <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity applied to circle shapes...</a></li>
+                    
+                    </ul>
+                </div>
+            </main>
+    </div>
+      </div>
+    </body>
+</html>
