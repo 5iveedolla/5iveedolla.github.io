@@ -27,6 +27,9 @@ h1 {
     flex: 1;
     margin: 0;
 }
+#port{
+    color: white;
+}
 #nav-ul {
     list-style-image: none;
 }
@@ -76,13 +79,13 @@ h2, h3 {
     animation: glow 1s ease-in-out infinite alternate;
 }
 /*Glow animation here*/
-@-webkit-keyframes glow from {
+@-webkit-keyframes glow{ from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
     }
-
+}
 
       /* portfolio styles */
       .content h1 {
